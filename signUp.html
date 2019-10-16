@@ -1,0 +1,45 @@
+<html>
+		<head>
+			<title>SignUp</title>
+			<link rel="icon" href="./images/favicon.jpg" type="img/x-icon">
+		</head>
+	<head>
+	<link rel="stylesheet" type="text/css" href="signUp.css">
+	</head>
+	
+	<body>
+	<script src="signUp.js"></script>
+	<div class="form" >
+			<h2 id="h2">Sign Up</h2>
+			
+			<div class="left">
+				<form id="formDetails">
+					<b>Enter Username:<br><br>
+					<input type="text" id="username" placeholder="Username" autocomplete="off" autofocus required><br><br>
+					<b>Enter Email:<b><br><br>
+					<input type="email" id="email" placeholder="Email" autocomplete="off" required><br><br>
+					<b>Enter Password:<br><br>
+					<input type="password" id="password" placeholder="Password" autocomplete="off" required><br><br>
+					<b>Retype password:<br><br>
+					<input type="password" id="confPassword" placeholder="Confirm Password" autocomplete="off" required><br><br><br>
+					<button class="formBotton" type="submit" onclick="checkRollno()" value="Submit">Submit</button>
+					<button class="formButton" type="reset" >Reset</button>
+				</form>
+				<h4><a href="">Forgot Password</a></h4>
+				<h4>Already have an account? <a href="./SignIn.html">SignIn</a></h4> 
+			</div>
+			
+			<!--<p> OR </p>-->
+			<div class="right">
+			<button class="btn" id="b1" onclick="facebook()"><b>Login with Facebook</b></button><br><br>
+			<button class="btn" id="b2" onclick="twitter()"><b>Log in with Twitter</b></button><br><br>
+			<button class="btn" id="b3" onclick="google()"><b>Log in with Google+</b></button><br><br>
+			
+			</div> 
+	</div>
+	<div class="sideImage">
+		<img src="./images/signUpBackground.png" >
+	</div>
+	</body>
+</html>
+	

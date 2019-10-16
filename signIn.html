@@ -1,0 +1,43 @@
+<html>
+		<head>
+			<title>SignIn</title>
+			<link rel="icon" href="./images/favicon.jpg" type="img/x-icon">
+		</head>
+	<head>
+	<link rel="stylesheet" type="text/css" href="signIn.css">
+	</head>
+	
+	<body>
+	<script src="signIn.js"></script>
+	<div class="form" >
+            <h2 id="h2">Sign In</h2>
+            <div class="topParagraph">
+                <p>Learn from the best courses using perfect practice orientation, auto evaluation and get skilled</p>
+            </div>
+			<div class="left">
+				<form id="formDetails" onsubmit="validateForm()">
+					<b>Enter Email:<b><br><br>
+					<input type="email" id="email" placeholder="Email" autocomplete="off" required autofocus><br><br>
+					<b>Enter Password:<br><br>
+                    <input type="password" id="password" placeholder="Password" autocomplete="off" required><br><br>
+                    <button class="formBotton" type="submit" onclick="checkRollno()" value="Submit">Submit</button>
+					<button class="formButton" type="reset" >Reset</button>
+				</form>
+				<h4><a href="">Forgot Password ?</a></h4>
+				<h4>Donot have an account ? <a href="./SignUp.html">SignUp</a></h4> 
+			</div>
+			
+			<!--<p> OR </p>-->
+			<div class="right">
+			<button class="btn" id="b1" onclick="facebook()"><b>Login with Facebook</b></button><br><br>
+			<button class="btn" id="b2" onclick="twitter()"><b>Log in with Twitter</b></button><br><br>
+			<button class="btn" id="b3" onclick="google()"><b>Log in with Google+</b></button><br><br>
+			
+			</div> 
+	</div>
+	<div class="sideImage">
+		<img src="./images/SignInBackground.png" >
+	</div>
+	</body>
+</html>
+	
