@@ -1,0 +1,148 @@
+div{
+	display:inline-block;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.container
+{
+	width:100%;
+		
+}
+.nevi-bar{
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid lightgrey;
+	background-color:black;
+	overflow:hidden;
+	position:fixed;
+}
+.nevi-bar ul{
+	list-style-type:none;
+}
+.nevi-bar ul li{
+	float:left;
+	padding-left:25px;
+}
+.nevi-bar ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+.nevi-bar ul li a:hover
+{
+	border-bottom:1px solid white;
+	font-size:20px;
+}
+.fa:hover
+{
+	opacity:0.7;
+}
+.fa 
+{
+  padding: 7px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:55px;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.logo ul li
+{
+	float:right;
+
+}
+.logo
+{
+	float:right;
+
+}
+.maindiv
+{
+	width:80%;
+	margin-left:15%;
+	margin-top:80px;
+}
+.md
+{
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	border-width:2px;
+	width:100%;
+	margin-top:25px;
+	
+}
+.card
+{
+	width:40%;
+	float:left;
+	margin-right:100px;
+}
+.card img
+{
+	width:100%;
+}
+.fotter
+{
+	background-color:black;
+	width:100%;
+	margin-top:70px;
+}
+.fotter .container
+{
+	width:80%;
+	margin-left:10%;
+	
+}
+.rows a 
+{
+	text-decoration:none;
+	color:white;
+}
+.col
+{
+	margin-right:130px;
+}
+#p4
+{
+	color:white;
+	text-align:center;
+	float:right;
+	margin-top:150px;
+}
+.col p
+{
+	font-size:16x;
+	font-family:serif;
+}
+.col h2
+{
+	font-size:22px;
+}
+.col p:hover
+{
+	cursor:pointer;
+}
+

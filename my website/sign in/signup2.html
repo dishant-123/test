@@ -1,0 +1,48 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="singup.css">
+	</head>
+	<body>
+	<div class="form">
+			<h2 id="h2">Sign Up</h2>
+			
+			<div class="left">
+				<form target="./abc.js" method="post" onsubmit="printValue()">
+					<b>Enter Username:<b><br><br>
+					<input type="text" id="username" placeholder="Username"><br><br>
+					<b>Enter Email:<b><br><br>
+					<input type="email" id="email" placeholder="Email"><br><br>
+					<b>Enter Password:<b><br><br>
+					<input type="text" id="password" placeholder="Password"><br><br>
+					<b>Retype password:<b><br><br>
+					<input type="password" id="apassword" placeholder="Confirm Password"><br><br><br>
+					<input type="submit" value="SignUp" id="signup">
+				</form>
+				
+			</div>
+			
+			<!--<p> OR </p>-->
+			<div class="right">
+			<button class="btn" id="b1" onclick="facebook()"><b>Login with Facebook</b></button><br><br>
+			<button class="btn" id="b2" onclick="twitter()"><b>Log in with Twitter</b></button><br><br>
+			<button class="btn" id="b3" onclick="google()"><b>Log in with Google+</b></button><br><br>
+			
+			</div> 
+		</div>
+		
+		<script>
+			function facebook(){
+			window.open("https://www.facebook.com/","facebook","height=400px,width=250px");
+			}
+			function twitter(){
+				window.open("https://twitter.com/login?lang=en","twitter","height=400px,width=250px");
+			}
+			function google(){
+				window.open("https://mail.google.com/mail/u/0/#inbox","google","height=400px,width=250px");
+			}
+
+			
+		</script>
+	</body>
+</html>
+	

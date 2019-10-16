@@ -1,0 +1,57 @@
+.p1
+{
+	font-size:15px;
+	color:#473788;
+}
+body
+{
+	background-image: url("i1.png");
+	background-repeat:no-repeat;
+}
+.ty
+{
+	padding-top:10px;
+	padding-left:100px;
+	padding-right:100px;
+}
+#select
+{
+	padding-top:10px;
+	padding-left:145px;
+	padding-right:145px;
+}
+.userpass
+{
+	box-shadow: 4px 6px 4px 8px rgba(0, 0, 0, 0.4);
+
+}
+#submit
+{
+	padding-top:7px;
+	padding-left:18px;
+	padding-right:18px;
+}
+#m1
+{
+	font-size:18px;
+}
+.container
+{
+	margin-left:200px;
+	margin-right:200px;
+}
+input,select,textarea
+{
+	opacity:0.6;
+}
+input:hover,select:hover,textarea:hover
+{
+	opacity:0.9;
+	transition:all 0.5s ease;
+	//transform:rotate(360deg);
+
+}
+.main
+{
+	float:left;
+}

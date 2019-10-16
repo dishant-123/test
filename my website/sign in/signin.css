@@ -1,0 +1,57 @@
+.container
+{
+	border:1 px solid black;
+	align:center;
+	background-color:#f6f6f6;
+	width:100%;
+	height:60%;
+	opacity:1;
+	box-shadow: 6px 6px 6px 8px rgba(0, 0, 0, 0.4);
+	border-radius:5px;
+	
+	
+}
+form 
+{
+	border: 3px solid #f1f1f1;
+	width:40%;
+}
+/*body
+{
+	background-color:#E8FAFE;
+}*/
+.main
+{
+	align:center;
+	padding-top:40px;
+	width:100%;
+	
+	
+}
+.userpass
+{
+		padding-top:30px;
+}
+.username,.password
+{
+		
+		width:70%;
+		text-align:center;
+		font-size:15px;
+		padding-top:20px;
+		margin-bottom:10px;
+		border-radius:5px;
+}
+.submit
+{
+	background-color:#56BAEC;
+	width:60%;
+	margin:20px 20px;
+	font-size:20px;
+	border-radius:5px;
+	
+}
+.submit:hover {
+  opacity: 0.3;
+}
+	

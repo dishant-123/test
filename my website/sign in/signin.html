@@ -1,0 +1,46 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="signin.css">
+	<script type="text/javascript" src="signin.js"></script>
+	</head>
+	<body bgcolor="#E8FAFE">
+	<div class="main" align="center"> 
+	<h2>Login Form</h2>
+	<form action="signin.php" method="post">
+		
+		<div class="container">
+			<div class="userpass">
+				<form onsubmit='f1()'>
+					<b>Enter Username: <b><br><br>
+					<input type="email" placeholder="Username" class="username" id="em"  autocomplete="on">
+					<br><br>
+					<b>Enter Password: <b><br><br>
+					<input type="password" placeholder="Password" class="password" id="ps" >
+					<br>
+					<input type="submit" value="Login" class="submit">
+					<br>
+					<input type="checkbox" value="Remember me" class="checkbox" ></&nbsp></&nbsp>Remember me
+					<br><br>
+				</form>
+			</div>
+			<div class="bottom">
+				<button type="button" class="btn">Cancel</button>
+				&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+				<a href="#">Forgot password?</a>
+			</div>
+		</div>
+		</div>
+		<script>
+		setInterval(f2,2000);
+		var x=['#FFFAFA','#F0FFF0','#F5FFFA','#F0F8FF','#FFF5EE','#FDF5E6','#FFFAFO'];
+		var i=0;
+			function f2()
+			{
+				
+				document.body.style.backgroundColor=x[i];
+				i=(i+1)%x.length;
+			}
+		</script>
+	</form>
+	</body>
+</html>
